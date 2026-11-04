@@ -1,4 +1,6 @@
-Done! Here's the final RV32I softcore RISC-V processor built with Verilator:
+https://peter.hkprog.org/2026/11/qwen-3-8-27b-on-rtx-6000/
+
+Here's the final RV32I softcore RISC-V processor built with Verilator:
 
 ## Project Structure
 
@@ -21,8 +23,6 @@ Done! Here's the final RV32I softcore RISC-V processor built with Verilator:
 - **Data hazard handling**: register forwarding (EX/MEM and MEM/WB bypasses) + load-use stall with flush
 - **Branch resolution**: resolved in EX stage (branches/jumps taken in 2 cycles)
 - **Load/store**: byte/half/word with byte-enable support
-
-https://peter.hkprog.org/2026/11/qwen-3-8-27b-on-rtx-6000/
 
 ## Build & Run
 
